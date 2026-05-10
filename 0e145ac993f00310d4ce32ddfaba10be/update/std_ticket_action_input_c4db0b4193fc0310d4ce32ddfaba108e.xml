@@ -1,14 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="" extends="task" table="x_431220_ciclo_iniciativa">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="std_ticket_action_input">
+    <std_ticket_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <attributes/>
-        <audit>true</audit>
-        <calculation/>
-        <choice>0</choice>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label/>
+        <column_label>Fecha licitacion</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -21,17 +26,24 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element/>
+        <element>u_new_date</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Collection">collection</internal_type>
+        <help/>
+        <hint/>
+        <internal_type display_value="">glide_date</internal_type>
+        <label>Fecha licitacion</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>x_431220_ciclo_iniciativa</name>
+        <model display_value="Modificar">ef6b4b0193fc0310d4ce32ddfaba1049</model>
+        <model_id>ef6b4b0193fc0310d4ce32ddfaba1049</model_id>
+        <model_table/>
+        <name>var__m_std_ticket_action_input_ef6b4b0193fc0310d4ce32ddfaba1049</name>
         <next_element/>
+        <order>200</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -44,18 +56,19 @@
         <reference_type/>
         <spell_check>false</spell_check>
         <staged>false</staged>
-        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_class_name>std_ticket_action_input</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-05-10 09:59:50</sys_created_on>
-        <sys_name>x_431220_ciclo_iniciativa</sys_name>
+        <sys_created_on>2026-05-10 13:23:47</sys_created_on>
+        <sys_id>c4db0b4193fc0310d4ce32ddfaba108e</sys_id>
+        <sys_name>Fecha licitacion</sys_name>
         <sys_package display_value="Ciclo" source="x_431220_ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_scope>
-        <sys_update_name>sys_dictionary_x_431220_ciclo_iniciativa_null</sys_update_name>
+        <sys_update_name>std_ticket_action_input_c4db0b4193fc0310d4ce32ddfaba108e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-05-10 13:46:16</sys_updated_on>
+        <sys_updated_on>2026-05-10 13:25:08</sys_updated_on>
         <table_reference>false</table_reference>
-        <text_index>true</text_index>
+        <text_index>false</text_index>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
@@ -65,5 +78,5 @@
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
-    </sys_dictionary>
+    </std_ticket_action_input>
 </record_update>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list">
     <sys_ux_list action="INSERT_OR_UPDATE">
         <active>true</active>
-        <category display_value="Choice">84daa20193b80310d4ce32ddfaba1011</category>
+        <category display_value="Gestion Aplicacion Ciclo">84daa20193b80310d4ce32ddfaba1011</category>
         <columns>table,element,label,value,sequence,inactive,language</columns>
         <condition/>
         <configuration display_value="Ciclo_menu_config">40da620193b80310d4ce32ddfaba10c3</configuration>
         <enable_infinite_scroll>false</enable_infinite_scroll>
         <fixed_query/>
-        <group_by_column/>
+        <group_by_column>element</group_by_column>
         <groups/>
         <hide_cell_filter>false</hide_cell_filter>
         <hide_checkbox_hover>true</hide_checkbox_hover>
@@ -54,7 +54,7 @@
         <list_attributes/>
         <live_updates>off</live_updates>
         <max_characters>4000</max_characters>
-        <order>50</order>
+        <order>10</order>
         <override_word_wrap_user_pref>false</override_word_wrap_user_pref>
         <roles/>
         <sys_class_name>sys_ux_list</sys_class_name>
@@ -63,17 +63,17 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>dcdaa20193b80310d4ce32ddfaba1014</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>All</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Desplegables</sys_name>
         <sys_overrides/>
         <sys_package display_value="Ciclo" source="x_431220_ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_scope>
         <sys_update_name>sys_ux_list_dcdaa20193b80310d4ce32ddfaba1014</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-05-10 10:59:37</sys_updated_on>
+        <sys_updated_on>2026-05-10 14:10:00</sys_updated_on>
         <table>x_431220_ciclo_choice</table>
-        <title>All</title>
+        <title>Desplegables</title>
         <view/>
         <word_wrap>false</word_wrap>
     </sys_ux_list>

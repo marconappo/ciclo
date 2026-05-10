@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="a1ab074193fc0310d4ce32ddfaba103f" sys_domain="global" table="std_ticket_action_input" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-10 13:23:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>21ab074193fc0310d4ce32ddfaba1065</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="std_ticket_action_input" name="std_ticket_action_input" sys_domain="global" view="Default view">a1ab074193fc0310d4ce32ddfaba103f</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="std_ticket_action_input" sys_domain="global" view="Default view">a9ab074193fc0310d4ce32ddfaba104f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-10 13:23:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-10 13:23:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a5ab074193fc0310d4ce32ddfaba104e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="std_ticket_action_input" name="std_ticket_action_input" sys_domain="global" view="Default view">a1ab074193fc0310d4ce32ddfaba103f</sys_ui_form>
+            <sys_ui_section caption="Reference Specification" display_value="Reference Specification" name="std_ticket_action_input" sys_domain="global" view="Default view">61ab074193fc0310d4ce32ddfaba1044</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-10 13:23:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-10 13:23:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>25ab074193fc0310d4ce32ddfaba1075</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="std_ticket_action_input" name="std_ticket_action_input" sys_domain="global" view="Default view">a1ab074193fc0310d4ce32ddfaba103f</sys_ui_form>
+            <sys_ui_section caption="Choice List Specification" display_value="Choice List Specification" name="std_ticket_action_input" sys_domain="global" view="Default view">2dab074193fc0310d4ce32ddfaba106d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-10 13:23:05</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-10 13:23:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a1ab074193fc0310d4ce32ddfaba106d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="std_ticket_action_input" name="std_ticket_action_input" sys_domain="global" view="Default view">a1ab074193fc0310d4ce32ddfaba103f</sys_ui_form>
+            <sys_ui_section caption="Default Value" display_value="Default Value" name="std_ticket_action_input" sys_domain="global" view="Default view">a9ab074193fc0310d4ce32ddfaba1065</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-10 13:23:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>std_ticket_action_input</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-10 13:23:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a1ab074193fc0310d4ce32ddfaba103f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>std_ticket_action_input</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Ciclo" source="x_431220_ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_scope>
+            <sys_update_name>sys_ui_form_sections_a1ab074193fc0310d4ce32ddfaba103f</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-10 13:23:04</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

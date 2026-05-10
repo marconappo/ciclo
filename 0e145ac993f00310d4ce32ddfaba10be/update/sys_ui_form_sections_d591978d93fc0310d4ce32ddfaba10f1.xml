@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="d591978d93fc0310d4ce32ddfaba10f1" sys_domain="global" table="x_431220_ciclo_iniciativa" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-10 13:48:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1d91d78d93fc0310d4ce32ddfaba1072</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_431220_ciclo_iniciativa" name="x_431220_ciclo_iniciativa" sys_domain="global" view="57caeecd9e780310976838d43a971d89">d591978d93fc0310d4ce32ddfaba10f1</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_431220_ciclo_iniciativa" sys_domain="global" view="57caeecd9e780310976838d43a971d89">9ada2a0193b80310d4ce32ddfaba1050</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-10 13:48:59</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-10 13:48:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1591d78d93fc0310d4ce32ddfaba1074</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_431220_ciclo_iniciativa" name="x_431220_ciclo_iniciativa" sys_domain="global" view="57caeecd9e780310976838d43a971d89">d591978d93fc0310d4ce32ddfaba10f1</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_431220_ciclo_iniciativa" sys_domain="global" view="57caeecd9e780310976838d43a971d89">1191978d93fc0310d4ce32ddfaba10f0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-10 13:48:59</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_431220_ciclo_iniciativa</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-10 13:48:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d591978d93fc0310d4ce32ddfaba10f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_431220_ciclo_iniciativa</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Ciclo" source="x_431220_ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_scope>
+            <sys_update_name>sys_ui_form_sections_d591978d93fc0310d4ce32ddfaba10f1</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-10 13:48:59</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace Ciclo 0" name="workspace-ciclo-0">57caeecd9e780310976838d43a971d89</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

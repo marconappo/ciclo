@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="942d1e0193740310d4ce32ddfaba10b6" extends="task" label="Iniciativa" max_length="40" name="x_431220_ciclo_iniciativa" text_index="true" type="collection">
+    <element audit="true" db_object_id="942d1e0193740310d4ce32ddfaba10b6" extends="task" label="Iniciativa" max_length="40" name="x_431220_ciclo_iniciativa" text_index="true" type="collection">
         <element label="Mes" max_length="40" name="mes" type="integer"/>
         <element label="Plazo de Ejecución" max_length="40" name="plazo_de_ejecucion" type="integer"/>
         <element label="Prórroga" max_length="40" name="prorroga" type="boolean"/>

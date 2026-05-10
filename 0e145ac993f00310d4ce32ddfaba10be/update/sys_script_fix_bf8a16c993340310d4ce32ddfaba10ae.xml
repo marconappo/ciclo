@@ -5,49 +5,86 @@
         <name>CICLO FIx Script</name>
         <record_for_rollback>true</record_for_rollback>
         <script><![CDATA[(function() {
-    var tableName = 'x_431220_ciclo_iniciativa';
-    var gr = new GlideRecord(tableName);
-    gr.query();
+    var targetTypeId = '2409120993340310d4ce32ddfaba10e1';
+    
+    // 1. List of groups from your file
+    var groupNames = [
+        "Aprobadores de VILLA DE VALLECAS", "Aprobadores de VICEALCALDÍA", "Aprobadores de TETUÁN",
+        "Validadores del VICEALCALDÍA", "Aprobadores de ARGANZUELA", "Aprobadores de BARAJAS",
+        "Aprobadores de CARABANCHEL", "Aprobadores de CENTRO", "Aprobadores de CHAMARTÍN",
+        "Aprobadores de CHAMBERÍ", "Aprobadores de CIUDAD LINEAL", "Aprobadores de CLUB DE CAMPO VILLA DE MADRID, S.A.",
+        "Aprobadores de COORDINACIÓN GENERAL DE LA ALCALDÍA", "Aprobadores de CULTURA, TURISMO Y DEPORTE",
+        "Aprobadores de DE PORTAVOZ, SEGURIDAD Y EMERGENCIAS", "Aprobadores de DESARROLLO URBANO",
+        "Aprobadores de ECONOMÍA, INNOVACIÓN Y EMPLEO", "Aprobadores de EMPRESA MUNICIPAL DE TRANSPORTES DE MADRID, S.A. (EMT)",
+        "Aprobadores de FAMILIAS, IGUALDAD Y BIENESTAR SOCIAL", "Aprobadores de FUENCARRAL - EL PARDO",
+        "Aprobadores de HACIENDA Y PERSONAL", "Aprobadores de HORTALEZA",
+        "Aprobadores de INFORMÁTICA DEL AYUNTAMIENTO DE MADRID", "Aprobadores de LATINA",
+        "Aprobadores de MADRID CALLE 30, S.A.", "Aprobadores de MADRID DESTINO CULTURA TURISMO Y NEGOCIO, S.A.",
+        "Aprobadores de MADRID SALUD", "Aprobadores de MEDIO AMBIENTE Y MOVILIDAD",
+        "Aprobadores de MERCAMADRID", "Aprobadores de MONCLOA - ARAVACA",
+        "Aprobadores de MORATALAZ", "Aprobadores de OBRAS Y EQUIPAMIENTOS",
+        "Aprobadores de PRESIDENCIA DEL PLENO", "Aprobadores de PUENTE DE VALLECAS",
+        "Aprobadores de RETIRO", "Aprobadores de SALAMANCA",
+        "Aprobadores de SAN BLAS - CANILLEJAS", "Aprobadores de SERVICIOS FUNERARIOS Y CEMENTERIOS DE MADRID, S.A.",
+        "Aprobadores de USERA", "Aprobadores de VICÁLVARO", "Aprobadores de VILLAVERDE",
+        "Aprobadores de VIVIENDA Y SUELO DE MADRID, S.A", "Validadores del ARGANZUELA",
+        "Validadores del BARAJAS", "Validadores del CARABANCHEL", "Validadores del CENTRO",
+        "Validadores del CHAMARTÍN", "Validadores del CHAMBERÍ", "Validadores del CIUDAD LINEAL",
+        "Validadores del CLUB DE CAMPO VILLA DE MADRID, S.A.", "Validadores del COORDINACIÓN GENERAL DE LA ALCALDÍA",
+        "Validadores del CULTURA, TURISMO Y DEPORTE", "Validadores del DE PORTAVOZ, SEGURIDAD Y EMERGENCIAS",
+        "Validadores del DESARROLLO URBANO", "Validadores del ECONOMÍA, INNOVACIÓN Y EMPLEO",
+        "Validadores del EMT", "Validadores del FAMILIAS, IGUALDAD Y BIENESTAR SOCIAL",
+        "Validadores del FUENCARRAL - EL PARDO", "Validadores del HACIENDA Y PERSONAL",
+        "Validadores del HORTALEZA", "Validadores del IAM", "Validadores del LATINA",
+        "Validadores del MADRID CALLE 30, S.A.", "Validadores del MADRID DESTINO CULTURA TURISMO Y NEGOCIO, S.A.",
+        "Validadores del MADRID SALUD", "Validadores del MEDIO AMBIENTE Y MOVILIDAD",
+        "Validadores del MERCAMADRID", "Validadores del MONCLOA - ARAVACA",
+        "Validadores del MORATALAZ", "Validadores del OBRAS Y EQUIPAMIENTOS",
+        "Validadores del PRESIDENCIA DEL PLENO", "Validadores del PUENTE DE VALLECAS",
+        "Validadores del RETIRO", "Validadores del SALAMANCA", "Validadores del SAN BLAS - CANILLEJAS",
+        "Validadores del SERVICIOS FUNERARIOS Y CEMENTERIOS DE MADRID, S.A.", "Validadores del USERA",
+        "Validadores del VICÁLVARO", "Validadores del VILLA DE VALLECAS", "Validadores del VILLAVERDE",
+        "Validadores del VIVIENDA Y SUELO DE MADRID, S.A"
+    ];
 
-    var count = 0;
-    var appFileHandler = new GlideappApplicationFile();
+    var updatedCount = 0;
+    var skippedCount = 0;
 
-    while (gr.next()) {
-        // 1. Create the Application File (Metadata)
-        appFileHandler.create(gr);
-        
-        // 2. Immediately find the Metadata record we just created
-        // Record-based app files are stored in sys_app_data_file
-        var metaGR = new GlideRecord('sys_app_data_file');
-        metaGR.addQuery('record_id', gr.getUniqueValue());
-        metaGR.query();
-        
-        if (metaGR.next()) {
-            // 3. Flag it as Demo Data
-            metaGR.demo_data = true; 
-            metaGR.update();
-        }
-
-        count++;
-        if (count % 500 === 0) {
-            gs.info('Progress: ' + count + ' records marked as Demo Data...');
+    for (var i = 0; i < groupNames.length; i++) {
+        var gr = new GlideRecord('sys_user_group');
+        if (gr.get('name', groupNames[i])) {
+            
+            var currentTypes = gr.getValue('type') || '';
+            
+            // Check if the type is already assigned to avoid duplicates
+            if (currentTypes.indexOf(targetTypeId) === -1) {
+                var newTypes = currentTypes ? currentTypes + ',' + targetTypeId : targetTypeId;
+                
+                gr.setWorkflow(false); // Fastest way: bypasses business rules
+                gr.autoSysFields(false); // Keep the original system update fields
+                gr.type = newTypes;
+                gr.update();
+                updatedCount++;
+            } else {
+                skippedCount++;
+            }
         }
     }
 
-    gs.info('Success! ' + count + ' records are now officially Demo Data.');
+    gs.info('Group Type Update Complete. Updated: ' + updatedCount + ', Skipped (already had type): ' + skippedCount);
 })();]]></script>
         <sys_class_name>sys_script_fix</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-05-10 09:49:02</sys_created_on>
         <sys_id>bf8a16c993340310d4ce32ddfaba10ae</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>CICLO FIx Script</sys_name>
         <sys_package display_value="Ciclo" source="x_431220_ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_scope>
         <sys_update_name>sys_script_fix_bf8a16c993340310d4ce32ddfaba10ae</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-05-10 11:08:58</sys_updated_on>
+        <sys_updated_on>2026-05-10 14:29:36</sys_updated_on>
         <unloadable>false</unloadable>
     </sys_script_fix>
 </record_update>

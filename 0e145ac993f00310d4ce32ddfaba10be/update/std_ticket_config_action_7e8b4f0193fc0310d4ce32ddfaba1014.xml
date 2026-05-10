@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="std_ticket_config_action">
+    <std_ticket_config_action action="INSERT_OR_UPDATE">
+        <action_script><![CDATA[(function(inputs, outputs) {
+    current.state = 1;
+    current.update();
+})(inputs, outputs);]]></action_script>
+        <active>true</active>
+        <advanced>true</advanced>
+        <applicability_condition/>
+        <applicability_script><![CDATA[(function() {
+    var userId = gs.getUserID();
+    var userName = gs.getUserName();
+    var groupId = current.getValue('assignment_group');
+
+    // 1. Check if state is "En edición" (1)
+    if (current.state == 8) { 
+        
+        // Admin override
+        if (gs.hasRole('admin')) {
+            gs.info('Action Applicability: User {0} is Admin. Access granted.', userName);
+            return true;
+        }
+
+        // 2. Validate Assignment Group membership
+        if (groupId) {
+            var isMember = gs.getUser().isMemberOf(groupId);
+            
+            // Logging the result for debugging
+            gs.info('Action Applicability: User {0} checking membership for Group {1}. Result: {2}', [userName, groupId, isMember]);
+            
+            if (isMember) {
+                return true;
+            }
+        } else {
+            gs.warn('Action Applicability: Assignment Group is empty for record {0}.', current.getDisplayValue());
+        }
+    }
+
+    return false;
+})();]]></applicability_script>
+        <name>Reeditar</name>
+        <order>100</order>
+        <short_description>Reeditar</short_description>
+        <sys_class_name>std_ticket_config_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-10 13:22:36</sys_created_on>
+        <sys_id>7e8b4f0193fc0310d4ce32ddfaba1014</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reeditar</sys_name>
+        <sys_package display_value="Ciclo" source="x_431220_ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_scope>
+        <sys_update_name>std_ticket_config_action_7e8b4f0193fc0310d4ce32ddfaba1014</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-10 13:22:36</sys_updated_on>
+        <ticket_configuration display_value="x_431220_ciclo_iniciativa">f896f2c1933c0310d4ce32ddfaba1072</ticket_configuration>
+        <user_input>true</user_input>
+    </std_ticket_config_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=7e8b4f0193fc0310d4ce32ddfaba1014"/>
+</record_update>
