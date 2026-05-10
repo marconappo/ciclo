@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="3a21f45183fc03104f2c96d6feaad3d5" extends="task" label="Plan del organismo" max_length="40" name="x_431220_ciclo_plan_organismo" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Ano" max_length="40" name="ano" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Total Valor Estimado" max_length="38" name="total_valor_estimado" read_only="true" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true" label="Iniciativas" max_length="1024" name="iniciativas" reference="x_431220_ciclo_iniciativa" type="glide_list"/>
+    </element>
+</database>
