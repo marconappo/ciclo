@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_431220_ciclo_iniciativa</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Synch Mes, Quarter and Year</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+    // 1. Check if the date field 'fecha_licitacion' has a value
+    if (!current.fecha_licitacion.nil()) {
+        // 2. Initialize GlideDate with the field value
+        var gDate = new GlideDate();
+        gDate.setValue(current.getValue('fecha_licitacion'));
+        
+        // 3. Extract components
+        var month = parseInt(gDate.getMonthNoTZ());
+        var year = parseInt(gDate.getYearNoTZ());
+        
+        // 4. Calculate Quarter (1-4)
+        var quarter = Math.ceil(month / 3);
+
+        // 5. Update the target fields
+        current.mes = month;
+        current.trimestre = quarter;
+        current.ano = year;
+    } else {
+        // Optional: Clear the fields if the date is removed
+        current.mes = '';
+        current.trimestre = '';
+        current.ano = '';
+    }
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-10 10:52:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>54f8ee4593780310d4ce32ddfaba1083</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Synch Mes, Quarter and Year</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Ciclo" source="x_431220_ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_scope>
+        <sys_update_name>sys_script_54f8ee4593780310d4ce32ddfaba1083</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-10 10:52:25</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=54f8ee4593780310d4ce32ddfaba1083"/>
+</record_update>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_431220_ciclo_iniciativa" version="2" view="workspace-ciclo-0">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>short_description</element>
+            <list_id display_value="x_431220_ciclo_iniciativa" element="NULL" name="x_431220_ciclo_iniciativa" parent="NULL" relationship="NULL" sys_domain="global" view="57caeecd9e780310976838d43a971d89">c2dae60193b80310d4ce32ddfaba1060</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-10 10:59:44</sys_created_on>
+            <sys_id>46dae60193b80310d4ce32ddfaba1062</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-10 10:59:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ano</element>
+            <list_id display_value="x_431220_ciclo_iniciativa" element="NULL" name="x_431220_ciclo_iniciativa" parent="NULL" relationship="NULL" sys_domain="global" view="57caeecd9e780310976838d43a971d89">c2dae60193b80310d4ce32ddfaba1060</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-10 10:59:44</sys_created_on>
+            <sys_id>46dae60193b80310d4ce32ddfaba1063</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-10 10:59:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>fecha_licitacion</element>
+            <list_id display_value="x_431220_ciclo_iniciativa" element="NULL" name="x_431220_ciclo_iniciativa" parent="NULL" relationship="NULL" sys_domain="global" view="57caeecd9e780310976838d43a971d89">c2dae60193b80310d4ce32ddfaba1060</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-10 10:59:44</sys_created_on>
+            <sys_id>cadae60193b80310d4ce32ddfaba1063</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-10 10:59:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>tipo_de_contrato</element>
+            <list_id display_value="x_431220_ciclo_iniciativa" element="NULL" name="x_431220_ciclo_iniciativa" parent="NULL" relationship="NULL" sys_domain="global" view="57caeecd9e780310976838d43a971d89">c2dae60193b80310d4ce32ddfaba1060</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-10 10:59:44</sys_created_on>
+            <sys_id>42dae60193b80310d4ce32ddfaba1064</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-10 10:59:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>valor_estimado</element>
+            <list_id display_value="x_431220_ciclo_iniciativa" element="NULL" name="x_431220_ciclo_iniciativa" parent="NULL" relationship="NULL" sys_domain="global" view="57caeecd9e780310976838d43a971d89">c2dae60193b80310d4ce32ddfaba1060</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-10 10:59:44</sys_created_on>
+            <sys_id>c6dae60193b80310d4ce32ddfaba1064</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-10 10:59:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>plazo_de_ejecucion</element>
+            <list_id display_value="x_431220_ciclo_iniciativa" element="NULL" name="x_431220_ciclo_iniciativa" parent="NULL" relationship="NULL" sys_domain="global" view="57caeecd9e780310976838d43a971d89">c2dae60193b80310d4ce32ddfaba1060</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-10 10:59:44</sys_created_on>
+            <sys_id>4edae60193b80310d4ce32ddfaba1064</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-10 10:59:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="x_431220_ciclo_iniciativa" element="NULL" name="x_431220_ciclo_iniciativa" parent="NULL" relationship="NULL" sys_domain="global" view="57caeecd9e780310976838d43a971d89">c2dae60193b80310d4ce32ddfaba1060</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-10 10:59:44</sys_created_on>
+            <sys_id>c2dae60193b80310d4ce32ddfaba1065</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-10 10:59:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assignment_group</element>
+            <list_id display_value="x_431220_ciclo_iniciativa" element="NULL" name="x_431220_ciclo_iniciativa" parent="NULL" relationship="NULL" sys_domain="global" view="57caeecd9e780310976838d43a971d89">c2dae60193b80310d4ce32ddfaba1060</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-10 10:59:44</sys_created_on>
+            <sys_id>4adae60193b80310d4ce32ddfaba1065</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-10 10:59:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>reassignment_count</element>
+            <list_id display_value="x_431220_ciclo_iniciativa" element="NULL" name="x_431220_ciclo_iniciativa" parent="NULL" relationship="NULL" sys_domain="global" view="57caeecd9e780310976838d43a971d89">c2dae60193b80310d4ce32ddfaba1060</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-10 10:59:44</sys_created_on>
+            <sys_id>cedae60193b80310d4ce32ddfaba1065</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-10 10:59:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>cpv</element>
+            <list_id display_value="x_431220_ciclo_iniciativa" element="NULL" name="x_431220_ciclo_iniciativa" parent="NULL" relationship="NULL" sys_domain="global" view="57caeecd9e780310976838d43a971d89">c2dae60193b80310d4ce32ddfaba1060</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-10 10:59:44</sys_created_on>
+            <sys_id>46dae60193b80310d4ce32ddfaba1066</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-10 10:59:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>mes</element>
+            <list_id display_value="x_431220_ciclo_iniciativa" element="NULL" name="x_431220_ciclo_iniciativa" parent="NULL" relationship="NULL" sys_domain="global" view="57caeecd9e780310976838d43a971d89">c2dae60193b80310d4ce32ddfaba1060</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>10</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-10 10:59:44</sys_created_on>
+            <sys_id>cadae60193b80310d4ce32ddfaba1066</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-10 10:59:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>plazo_prorroga</element>
+            <list_id display_value="x_431220_ciclo_iniciativa" element="NULL" name="x_431220_ciclo_iniciativa" parent="NULL" relationship="NULL" sys_domain="global" view="57caeecd9e780310976838d43a971d89">c2dae60193b80310d4ce32ddfaba1060</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>11</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-10 10:59:44</sys_created_on>
+            <sys_id>42dae60193b80310d4ce32ddfaba1067</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-10 10:59:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>prorroga</element>
+            <list_id display_value="x_431220_ciclo_iniciativa" element="NULL" name="x_431220_ciclo_iniciativa" parent="NULL" relationship="NULL" sys_domain="global" view="57caeecd9e780310976838d43a971d89">c2dae60193b80310d4ce32ddfaba1060</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>12</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-10 10:59:44</sys_created_on>
+            <sys_id>c6dae60193b80310d4ce32ddfaba1067</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-10 10:59:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>trimestre</element>
+            <list_id display_value="x_431220_ciclo_iniciativa" element="NULL" name="x_431220_ciclo_iniciativa" parent="NULL" relationship="NULL" sys_domain="global" view="57caeecd9e780310976838d43a971d89">c2dae60193b80310d4ce32ddfaba1060</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>13</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-10 10:59:44</sys_created_on>
+            <sys_id>4edae60193b80310d4ce32ddfaba1067</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-10 10:59:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>company</element>
+            <list_id display_value="x_431220_ciclo_iniciativa" element="NULL" name="x_431220_ciclo_iniciativa" parent="NULL" relationship="NULL" sys_domain="global" view="57caeecd9e780310976838d43a971d89">c2dae60193b80310d4ce32ddfaba1060</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>14</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-10 10:59:44</sys_created_on>
+            <sys_id>c2dae60193b80310d4ce32ddfaba1068</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-10 10:59:44</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_431220_ciclo_iniciativa</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-10 10:59:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c2dae60193b80310d4ce32ddfaba1060</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_431220_ciclo_iniciativa</sys_name>
+            <sys_package display_value="Ciclo" source="x_431220_ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_scope>
+            <sys_update_name>sys_ui_list_x_431220_ciclo_iniciativa_workspace-ciclo-0</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-10 10:59:44</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace Ciclo 0" name="workspace-ciclo-0">57caeecd9e780310976838d43a971d89</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

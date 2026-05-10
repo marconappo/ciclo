@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_datasource">
+    <ais_datasource action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conflict>false</conflict>
+        <filter/>
+        <force_late_binding>false</force_late_binding>
+        <name>Choice Table</name>
+        <retention_policy/>
+        <source>x_431220_ciclo_choice</source>
+        <sys_class_name>ais_datasource</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-10 10:59:41</sys_created_on>
+        <sys_id>c5da660193b80310d4ce32ddfaba10f5</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Choice Table</sys_name>
+        <sys_package display_value="Ciclo" source="x_431220_ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_scope>
+        <sys_update_name>ais_datasource_c5da660193b80310d4ce32ddfaba10f5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-10 10:59:41</sys_updated_on>
+        <type>internal</type>
+    </ais_datasource>
+</record_update>

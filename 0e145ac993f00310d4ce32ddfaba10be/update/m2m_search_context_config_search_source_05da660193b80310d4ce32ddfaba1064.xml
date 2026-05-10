@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_search_context_config_search_source">
+    <m2m_search_context_config_search_source action="INSERT_OR_UPDATE">
+        <order>500</order>
+        <search_context_config display_value="Ciclo - Workspace Search">57caeecd1f7803107101dd9771c49b8a</search_context_config>
+        <source display_value="Ciclo - sys_portal">c9da660193b80310d4ce32ddfaba105a</source>
+        <sys_class_name>m2m_search_context_config_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-10 10:59:40</sys_created_on>
+        <sys_id>05da660193b80310d4ce32ddfaba1064</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ciclo" source="x_431220_ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_scope>
+        <sys_update_name>m2m_search_context_config_search_source_05da660193b80310d4ce32ddfaba1064</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-10 10:59:40</sys_updated_on>
+    </m2m_search_context_config_search_source>
+</record_update>

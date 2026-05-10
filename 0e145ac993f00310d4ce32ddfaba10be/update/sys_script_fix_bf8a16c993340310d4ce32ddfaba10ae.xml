@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description/>
+        <name>CICLO FIx Script</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script><![CDATA[(function() {
+    var tableName = 'x_431220_ciclo_iniciativa';
+    var gr = new GlideRecord(tableName);
+    gr.query();
+
+    var count = 0;
+    var appFileHandler = new GlideappApplicationFile();
+
+    while (gr.next()) {
+        // 1. Create the Application File (Metadata)
+        appFileHandler.create(gr);
+        
+        // 2. Immediately find the Metadata record we just created
+        // Record-based app files are stored in sys_app_data_file
+        var metaGR = new GlideRecord('sys_app_data_file');
+        metaGR.addQuery('record_id', gr.getUniqueValue());
+        metaGR.query();
+        
+        if (metaGR.next()) {
+            // 3. Flag it as Demo Data
+            metaGR.demo_data = true; 
+            metaGR.update();
+        }
+
+        count++;
+        if (count % 500 === 0) {
+            gs.info('Progress: ' + count + ' records marked as Demo Data...');
+        }
+    }
+
+    gs.info('Success! ' + count + ' records are now officially Demo Data.');
+})();]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-10 09:49:02</sys_created_on>
+        <sys_id>bf8a16c993340310d4ce32ddfaba10ae</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>CICLO FIx Script</sys_name>
+        <sys_package display_value="Ciclo" source="x_431220_ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_scope>
+        <sys_update_name>sys_script_fix_bf8a16c993340310d4ce32ddfaba10ae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-10 11:08:58</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

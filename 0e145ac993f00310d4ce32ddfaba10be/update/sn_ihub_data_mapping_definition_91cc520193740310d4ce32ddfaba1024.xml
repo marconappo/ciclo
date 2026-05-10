@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_ihub_data_mapping_definition">
+    <sn_ihub_data_mapping_definition action="INSERT_OR_UPDATE">
+        <integration_table>sys_data_source</integration_table>
+        <published_source_structure/>
+        <record_id>b0bc5ecd93340310d4ce32ddfaba10a9</record_id>
+        <source_structure display_value="ih_import_FD91cc5201797403104f0793dafaae8123">55cc520193740310d4ce32ddfaba1023</source_structure>
+        <sys_class_name>sn_ihub_data_mapping_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-10 09:58:15</sys_created_on>
+        <sys_id>91cc520193740310d4ce32ddfaba1024</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ciclo" source="x_431220_ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_scope>
+        <sys_update_name>sn_ihub_data_mapping_definition_91cc520193740310d4ce32ddfaba1024</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-10 09:58:15</sys_updated_on>
+    </sn_ihub_data_mapping_definition>
+</record_update>

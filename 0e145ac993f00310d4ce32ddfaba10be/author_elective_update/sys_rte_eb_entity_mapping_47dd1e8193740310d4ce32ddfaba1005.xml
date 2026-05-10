@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_entity_mapping">
+    <sys_rte_eb_entity_mapping action="DELETE">
+        <condition_script><![CDATA[/* Example Script  (function() {          //step1: access the input variables         if (input && input.temp.u_type == 'Disk') {         //step2: return true/false             return true;         }         return false;  })(); */  (function(input) {     // Add your code here. })(input);]]></condition_script>
+        <encoded_query/>
+        <entity_mapping_group/>
+        <ignore>false</ignore>
+        <is_conditional>false</is_conditional>
+        <name>IHUB_SOURCE_TEMP_MAPPING</name>
+        <order>50</order>
+        <source_sys_rte_eb_entity display_value="Source_x_431220_ciclo_ihub_import_612d9e0193740310d4ce32ddfaba101f">062d124193740310d4ce32ddfaba102e</source_sys_rte_eb_entity>
+        <sys_class_name>sys_rte_eb_entity_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-10 10:03:01</sys_created_on>
+        <sys_id>47dd1e8193740310d4ce32ddfaba1005</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IHUB_SOURCE_TEMP_MAPPING</sys_name>
+        <sys_package display_value="Ciclo" source="x_431220_ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Iniciativa Data Mapping_etl_ihub">fd2dde0193740310d4ce32ddfaba10f6</sys_rte_eb_definition>
+        <sys_scope display_value="Ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_scope>
+        <sys_update_name>sys_rte_eb_entity_mapping_47dd1e8193740310d4ce32ddfaba1005</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-10 10:03:01</sys_updated_on>
+        <target_sys_rte_eb_entity display_value="IHUB_TARGET_TEMP_x_431220_ciclo_iniciativa">47ddda8193740310d4ce32ddfaba10e8</target_sys_rte_eb_entity>
+    </sys_rte_eb_entity_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Ciclo">0e145ac993f00310d4ce32ddfaba10be</application>
+        <file_path/>
+        <instance_id>2dfc034593f462d4611eddd548373c5a</instance_id>
+        <instance_name>dev320725</instance_name>
+        <name>sys_rte_eb_entity_mapping_47dd1e8193740310d4ce32ddfaba1005</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_rte_eb_entity_mapping"&gt;&lt;sys_rte_eb_entity_mapping action="INSERT_OR_UPDATE"&gt;&lt;condition_script&gt;&lt;![CDATA[/* Example Script  (function() {          //step1: access the input variables         if (input &amp;&amp; input.temp.u_type == 'Disk') {         //step2: return true/false             return true;         }         return false;  })(); */  (function(input) {     // Add your code here. })(input);]]&gt;&lt;/condition_script&gt;&lt;encoded_query/&gt;&lt;entity_mapping_group/&gt;&lt;ignore&gt;false&lt;/ignore&gt;&lt;is_conditional&gt;false&lt;/is_conditional&gt;&lt;name&gt;IHUB_SOURCE_TEMP_MAPPING&lt;/name&gt;&lt;order&gt;50&lt;/order&gt;&lt;source_sys_rte_eb_entity display_value="Source_x_431220_ciclo_ihub_import_612d9e0193740310d4ce32ddfaba101f"&gt;062d124193740310d4ce32ddfaba102e&lt;/source_sys_rte_eb_entity&gt;&lt;sys_class_name&gt;sys_rte_eb_entity_mapping&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-05-10 10:03:01&lt;/sys_created_on&gt;&lt;sys_id&gt;47dd1e8193740310d4ce32ddfaba1005&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;IHUB_SOURCE_TEMP_MAPPING&lt;/sys_name&gt;&lt;sys_package display_value="Ciclo" source="x_431220_ciclo"&gt;0e145ac993f00310d4ce32ddfaba10be&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_rte_eb_definition display_value="Iniciativa Data Mapping_etl_ihub"&gt;fd2dde0193740310d4ce32ddfaba10f6&lt;/sys_rte_eb_definition&gt;&lt;sys_scope display_value="Ciclo"&gt;0e145ac993f00310d4ce32ddfaba10be&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_rte_eb_entity_mapping_47dd1e8193740310d4ce32ddfaba1005&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-05-10 10:03:01&lt;/sys_updated_on&gt;&lt;target_sys_rte_eb_entity display_value="IHUB_TARGET_TEMP_x_431220_ciclo_iniciativa"&gt;47ddda8193740310d4ce32ddfaba10e8&lt;/target_sys_rte_eb_entity&gt;&lt;/sys_rte_eb_entity_mapping&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-586435822</payload_hash>
+        <record_name>IHUB_SOURCE_TEMP_MAPPING</record_name>
+        <reverted_from/>
+        <source>33c4de8993f00310d4ce32ddfaba1053</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-10 10:03:01</sys_created_on>
+        <sys_id>4fdd1e8193740310d4ce32ddfaba1008</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e115719270000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-10 10:03:01</sys_updated_on>
+        <type>RTE Entity Mapping</type>
+        <update_guid>0fdd1e812f740310159bdc0ec556a107</update_guid>
+        <update_guid_history>0fdd1e812f740310159bdc0ec556a107:-586435822</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-10 10:05:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_entity_mapping">sys_rte_eb_entity_mapping</sys_db_object>
+        <sys_id>062397bef7564de085c102083838a400</sys_id>
+        <sys_metadata>47dd1e8193740310d4ce32ddfaba1005</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IHUB_SOURCE_TEMP_MAPPING</sys_name>
+        <sys_package display_value="Ciclo" source="x_431220_ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_scope>
+        <sys_scope_delete display_value="">bfa873bd44e24f8c997f37ab61844d04</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_entity_mapping_47dd1e8193740310d4ce32ddfaba1005</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_entity_mapping_47dd1e8193740310d4ce32ddfaba1005">4fdd1e8193740310d4ce32ddfaba1008</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-10 10:05:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

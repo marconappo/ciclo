@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2e8e920593740310d4ce32ddfaba1097" extends="sys_import_set_row" label="Iniciativa Data Mapping" max_length="40" name="x_431220_ciclo_ihub_import_612d9e0193740310d4ce32ddfaba101f" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Valor Estimado" label="Valor Estimado" max_length="40" name="u_valor_estimado" type="string"/>
+        <element attributes="import_attribute_name=Plazo de Ejecución" label="Plazo de Ejecución" max_length="40" name="u_rplcd_n_ascii_644162899" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Plazo prórroga" label="Plazo prórroga" max_length="40" name="u_rplcd_n_ascii_1562778426" type="string"/>
+        <element attributes="import_attribute_name=Trimestre" label="Trimestre" max_length="40" name="u_trimestre" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Company" label="Company" max_length="40" name="u_company" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=State" label="State" max_length="40" name="u_state" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Assignment group" label="Assignment group" max_length="54" name="u_assignment_group" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Tipo de contrato" label="Tipo de contrato" max_length="40" name="u_tipo_de_contrato" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Organismo" label="Organismo" max_length="40" name="u_organismo" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Prórroga" label="Prórroga" max_length="40" name="u_rplcd_n_ascii_1441831811" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Short description" label="Short description" max_length="160" name="u_short_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=CPV" label="CPV" max_length="40" name="u_cpv" type="string"/>
+        <element attributes="import_attribute_name=Mes" label="Mes" max_length="40" name="u_mes" type="integer"/>
+        <element attributes="import_attribute_name=Ano" label="Ano" max_length="40" name="u_ano" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Fecha licitacion" label="Fecha licitacion" max_length="40" name="u_fecha_licitacion" type="glide_date"/>
+    </element>
+</database>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">36daea0193b80310d4ce32ddfaba1021</canvas>
+        <component display_value="Heading">1f6e0643eca7a637e36bd7833549ec9e</component>
+        <component_props>{"variant":"header-primary","label":"Happening Now","wontWrap":false,"hasNoMargin":false,"level":"1","filterConfigurations":[],"noDebounce":"","contextMenuActions":[]}</component_props>
+        <h>3</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-10 10:59:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>badaea0193b80310d4ce32ddfaba104f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Ciclo" source="x_431220_ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_scope>
+        <sys_update_name>par_dashboard_widget_badaea0193b80310d4ce32ddfaba104f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-10 10:59:47</sys_updated_on>
+        <visualization/>
+        <w>47</w>
+        <widget_props/>
+        <x>0</x>
+        <y>0</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Ciclo">0e145ac993f00310d4ce32ddfaba10be</application>
+        <file_path/>
+        <instance_id>2dfc034593f462d4611eddd548373c5a</instance_id>
+        <instance_name>dev320725</instance_name>
+        <name>par_dashboard_widget_badaea0193b80310d4ce32ddfaba104f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">36daea0193b80310d4ce32ddfaba1021</canvas><component display_value="Heading">1f6e0643eca7a637e36bd7833549ec9e</component><component_props>{"variant":"header-primary","label":"Happening Now","wontWrap":false,"hasNoMargin":false,"level":"1","filterConfigurations":[],"noDebounce":"","contextMenuActions":[]}</component_props><h>3</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-10 10:59:47</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>badaea0193b80310d4ce32ddfaba104f</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Ciclo" source="x_431220_ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_package><sys_policy/><sys_scope display_value="Ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_scope><sys_update_name>par_dashboard_widget_badaea0193b80310d4ce32ddfaba104f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-10 10:59:47</sys_updated_on><visualization/><w>47</w><widget_props/><x>0</x><y>0</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>2128531777</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>33c4de8993f00310d4ce32ddfaba1053</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-10 10:59:47</sys_created_on>
+        <sys_id>bedaea0193b80310d4ce32ddfaba1052</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e118b13d50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-10 10:59:47</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>7edaea01dab803101f08a541666a5351</update_guid>
+        <update_guid_history>7edaea01dab803101f08a541666a5351:2128531777</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">cbda2e0193b80310d4ce32ddfaba1017</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-10 10:59:48</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>02d38863b54c495480aa3dac7f4a7959</sys_id>
+        <sys_metadata>badaea0193b80310d4ce32ddfaba104f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ciclo" source="x_431220_ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_scope>
+        <sys_scope_delete display_value="">bfa873bd44e24f8c997f37ab61844d04</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_badaea0193b80310d4ce32ddfaba104f</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_badaea0193b80310d4ce32ddfaba104f">bedaea0193b80310d4ce32ddfaba1052</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-10 10:59:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

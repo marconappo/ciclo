@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e906920193340310d4ce32ddfaba10e5" label="Choice" max_length="40" name="x_431220_ciclo_choice" text_index="true" type="collection">
+        <element label="Inactive" max_length="40" name="inactive" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Element" max_length="40" name="element" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Language" max_length="40" name="language" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Label" max_length="203" name="label" type="string"/>
+        <element label="Sequence" max_length="40" name="sequence" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Table" max_length="40" name="table" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" label="Value" max_length="40" name="value" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

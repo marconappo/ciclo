@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission">
+    <par_dashboard_permission action="INSERT_OR_UPDATE">
+        <can_read>true</can_read>
+        <can_share>false</can_share>
+        <can_write>false</can_write>
+        <dashboard display_value="Ciclo">6edaaa0193b80310d4ce32ddfaba10ee</dashboard>
+        <group/>
+        <owner>false</owner>
+        <role display_value="x_431220_ciclo.user" name="x_431220_ciclo.user">56149ac993f00310d4ce32ddfaba102a</role>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-10 10:59:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4bda2e0193b80310d4ce32ddfaba1051</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>6edaaa0193b80310d4ce32ddfaba10ee</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Ciclo" source="x_431220_ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_scope>
+        <sys_update_name>par_dashboard_permission_4bda2e0193b80310d4ce32ddfaba1051</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-10 10:59:49</sys_updated_on>
+        <user/>
+    </par_dashboard_permission>
+</record_update>

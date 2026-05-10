@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field_mapping">
+    <sys_rte_eb_field_mapping action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <referenced_sys_rte_eb_entity/>
+        <source_sys_rte_eb_field display_value="Tipo de contrato">462d124193740310d4ce32ddfaba1037</source_sys_rte_eb_field>
+        <sys_class_name>sys_rte_eb_field_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-10 10:05:57</sys_created_on>
+        <sys_id>ce8e520593740310d4ce32ddfaba10fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ciclo" source="x_431220_ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Iniciativa Data Mapping_etl_ihub">fd2dde0193740310d4ce32ddfaba10f6</sys_rte_eb_definition>
+        <sys_rte_eb_entity_mapping display_value="IHUB_SOURCE_TEMP_MAPPING">468e520593740310d4ce32ddfaba10df</sys_rte_eb_entity_mapping>
+        <sys_scope display_value="Ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_scope>
+        <sys_update_name>sys_rte_eb_field_mapping_ce8e520593740310d4ce32ddfaba10fa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-10 10:05:57</sys_updated_on>
+        <target_sys_rte_eb_field display_value="Tipo de contrato_sn_ihub_target_tipo_de_contrato">868e520593740310d4ce32ddfaba1016</target_sys_rte_eb_field>
+    </sys_rte_eb_field_mapping>
+</record_update>

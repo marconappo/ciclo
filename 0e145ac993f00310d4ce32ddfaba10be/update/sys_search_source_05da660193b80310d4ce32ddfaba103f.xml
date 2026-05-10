@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_source">
+    <sys_search_source action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="sys_user_group">active=true<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        </condition>
+        <group/>
+        <name>Ciclo - sys_user_group</name>
+        <roles/>
+        <source_table>sys_user_group</source_table>
+        <sys_class_name>sys_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-10 10:59:40</sys_created_on>
+        <sys_id>05da660193b80310d4ce32ddfaba103f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ciclo - sys_user_group</sys_name>
+        <sys_package display_value="Ciclo" source="x_431220_ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_scope>
+        <sys_update_name>sys_search_source_05da660193b80310d4ce32ddfaba103f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-10 10:59:40</sys_updated_on>
+    </sys_search_source>
+</record_update>

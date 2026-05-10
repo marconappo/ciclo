@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Ciclo App Config">57caeecd7b780310627958eee016b693</app_config>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <disable_interoperable>false</disable_interoperable>
+        <event_mappings/>
+        <macroponent display_value="Group Record Page">69dae60193b80310d4ce32ddfaba100a</macroponent>
+        <macroponent_config/>
+        <name>Group Record Page</name>
+        <order>100</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition>table=sys_user_group</screen_condition>
+        <screen_type display_value="Record">57caeecda1780310e1ecd9ffe5398088</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-10 10:59:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>79dae60193b80310d4ce32ddfaba1014</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Group Record Page</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Ciclo" source="x_431220_ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_scope>
+        <sys_update_name>sys_ux_screen_79dae60193b80310d4ce32ddfaba1014</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-10 10:59:43</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=79dae60193b80310d4ce32ddfaba1014"/>
+</record_update>
