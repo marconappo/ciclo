@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_ex_sp_request_source">
+    <sn_ex_sp_request_source action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <all_portals>false</all_portals>
+        <description>Iniciativas</description>
+        <description_fields>company,ano</description_fields>
+        <filter/>
+        <group/>
+        <last_used/>
+        <mobile>false</mobile>
+        <mobile_page/>
+        <order>100</order>
+        <portal_page display_value="ticket">84af292247132100ba13a5554ee4909e</portal_page>
+        <portals>5c15fa4593f80310d4ce32ddfaba1004</portals>
+        <roles/>
+        <sys_class_name>sn_ex_sp_request_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-10 12:09:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4f4a7689933c0310d4ce32ddfaba1087</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Iniciativas Portal</sys_name>
+        <sys_package display_value="Ciclo" source="x_431220_ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_scope>
+        <sys_update_name>sn_ex_sp_request_source_4f4a7689933c0310d4ce32ddfaba1087</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-10 12:09:07</sys_updated_on>
+        <table>x_431220_ciclo_iniciativa</table>
+        <title>Iniciativas Portal</title>
+        <title_field>short_description</title_field>
+        <user/>
+    </sn_ex_sp_request_source>
+    <sys_translated_text action="delete_multiple" query="documentkey=4f4a7689933c0310d4ce32ddfaba1087"/>
+</record_update>

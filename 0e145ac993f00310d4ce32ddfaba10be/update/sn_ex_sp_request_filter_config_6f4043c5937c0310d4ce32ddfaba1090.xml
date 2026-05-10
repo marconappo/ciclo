@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_ex_sp_request_filter_config">
+    <sn_ex_sp_request_filter_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <apply_on_load>false</apply_on_load>
+        <available_for/>
+        <domain_id>global</domain_id>
+        <label>Aprobada dal Organo</label>
+        <not_available_for/>
+        <order>400</order>
+        <reference_table>asset_reclamation_request</reference_table>
+        <req_filter_definition display_value="Estado">225dfa01937c0310d4ce32ddfaba108d</req_filter_definition>
+        <request_filter_column/>
+        <sys_class_name>sn_ex_sp_request_filter_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-10 12:33:30</sys_created_on>
+        <sys_id>6f4043c5937c0310d4ce32ddfaba1090</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Aprobada dal Organo</sys_name>
+        <sys_package display_value="Ciclo" source="x_431220_ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_scope>
+        <sys_update_name>sn_ex_sp_request_filter_config_6f4043c5937c0310d4ce32ddfaba1090</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-10 12:34:04</sys_updated_on>
+    </sn_ex_sp_request_filter_config>
+</record_update>

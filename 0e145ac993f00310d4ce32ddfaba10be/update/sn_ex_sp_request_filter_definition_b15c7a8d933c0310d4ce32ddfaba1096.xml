@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_ex_sp_request_filter_definition">
+    <sn_ex_sp_request_filter_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <all_portals>false</all_portals>
+        <available_for/>
+        <description>Organismo</description>
+        <domain_id>global</domain_id>
+        <filter_type>reference</filter_type>
+        <is_multiselect>false</is_multiselect>
+        <name>Organismo</name>
+        <not_available_for/>
+        <order>100</order>
+        <portals>5c15fa4593f80310d4ce32ddfaba1004</portals>
+        <reference_condition table="core_company">country=Spain^EQ<item endquery="false" field="country" goto="false" newquery="false" operator="=" or="false" value="Spain"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </reference_condition>
+        <reference_table>core_company</reference_table>
+        <render_as_view>false</render_as_view>
+        <search_field>name</search_field>
+        <sys_class_name>sn_ex_sp_request_filter_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-10 12:17:05</sys_created_on>
+        <sys_id>b15c7a8d933c0310d4ce32ddfaba1096</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Organismo</sys_name>
+        <sys_package display_value="Ciclo" source="x_431220_ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_scope>
+        <sys_update_name>sn_ex_sp_request_filter_definition_b15c7a8d933c0310d4ce32ddfaba1096</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-10 12:17:05</sys_updated_on>
+    </sn_ex_sp_request_filter_definition>
+</record_update>
