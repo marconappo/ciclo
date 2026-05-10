@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="0b66c55983b043104f2c96d6feaad3bf" sys_domain="global" table="x_431220_ciclo_plan_municipal" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-10 22:19:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cb66c55983b043104f2c96d6feaad3c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_431220_ciclo_plan_municipal" name="x_431220_ciclo_plan_municipal" sys_domain="global" view="Default view">0b66c55983b043104f2c96d6feaad3bf</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_431220_ciclo_plan_municipal" sys_domain="global" view="Default view">d5f5451983b043104f2c96d6feaad36c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-10 22:19:28</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-10 22:19:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c366c55983b043104f2c96d6feaad3c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_431220_ciclo_plan_municipal" name="x_431220_ciclo_plan_municipal" sys_domain="global" view="Default view">0b66c55983b043104f2c96d6feaad3bf</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_431220_ciclo_plan_municipal" sys_domain="global" view="Default view">4366c55983b043104f2c96d6feaad3be</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-10 22:19:28</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_431220_ciclo_plan_municipal</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-10 22:19:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0b66c55983b043104f2c96d6feaad3bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_431220_ciclo_plan_municipal</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Ciclo" source="x_431220_ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_scope>
+            <sys_update_name>sys_ui_form_sections_0b66c55983b043104f2c96d6feaad3bf</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-10 22:19:28</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

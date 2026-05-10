@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_431220_ciclo_plan_organismo" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Plan del organismo - Default view" name="x_431220_ciclo_plan_organismo" related_list="NULL" sys_domain="global" view="Default view">a33bf0d9833043104f2c96d6feaad36f</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>REL:b03abc19833043104f2c96d6feaad3df</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-10 21:30:38</sys_created_on>
+            <sys_id>e33bf0d9833043104f2c96d6feaad370</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-10 21:30:38</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Plan del organismo - Default view" name="x_431220_ciclo_plan_organismo" related_list="NULL" sys_domain="global" view="Default view">a33bf0d9833043104f2c96d6feaad36f</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>REL:be8a7459833043104f2c96d6feaad3f9</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-10 21:30:38</sys_created_on>
+            <sys_id>af3bf0d9833043104f2c96d6feaad395</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-10 21:30:38</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Plan del organismo - Default view" name="x_431220_ciclo_plan_organismo" related_list="NULL" sys_domain="global" view="Default view">a33bf0d9833043104f2c96d6feaad36f</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>REL:7b9af859833043104f2c96d6feaad38e</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-10 21:30:38</sys_created_on>
+            <sys_id>273bf0d9833043104f2c96d6feaad396</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-10 21:30:38</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Plan del organismo - Default view</calculated_name>
+            <filter/>
+            <name>x_431220_ciclo_plan_organismo</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-10 21:30:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a33bf0d9833043104f2c96d6feaad36f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Plan del organismo - Default view</sys_name>
+            <sys_package display_value="Ciclo" source="x_431220_ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_scope>
+            <sys_update_name>sys_ui_related_x_431220_ciclo_plan_organismo_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-10 21:30:38</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

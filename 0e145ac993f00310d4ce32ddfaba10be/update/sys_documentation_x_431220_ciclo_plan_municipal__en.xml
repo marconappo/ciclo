@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="iniciativas" label="Iniciativas" language="en" table="x_431220_ciclo_plan_organismo">
+    <sys_documentation element="" label="Plan Municipal" language="en" table="x_431220_ciclo_plan_municipal">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>iniciativas</element>
+            <element/>
             <help/>
             <hint/>
-            <label>Iniciativas</label>
+            <label>Plan Municipal</label>
             <language>en</language>
-            <name>x_431220_ciclo_plan_organismo</name>
-            <plural/>
+            <name>x_431220_ciclo_plan_municipal</name>
+            <plural>Plan Municipals</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-10 20:54:22</sys_created_on>
-            <sys_mod_count>5</sys_mod_count>
-            <sys_name>Iniciativas</sys_name>
+            <sys_created_on>2026-05-10 22:17:25</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Plan Municipal</sys_name>
             <sys_package display_value="Ciclo" source="x_431220_ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_package>
             <sys_policy/>
             <sys_scope display_value="Ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_scope>
-            <sys_update_name>sys_documentation_x_431220_ciclo_plan_organismo_iniciativas_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_431220_ciclo_plan_municipal__en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-10 22:08:33</sys_updated_on>
+            <sys_updated_on>2026-05-10 22:17:25</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

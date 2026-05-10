@@ -4,23 +4,23 @@
         <apply_on_load>false</apply_on_load>
         <available_for/>
         <domain_id>global</domain_id>
-        <label>Seleciona Organismo</label>
+        <label>Plan del Organismo</label>
         <not_available_for/>
         <order>100</order>
-        <reference_table>x_431220_ciclo_iniciativa</reference_table>
-        <req_filter_definition display_value="Organismo">b15c7a8d933c0310d4ce32ddfaba1096</req_filter_definition>
-        <request_filter_column>company</request_filter_column>
+        <reference_table>asset_reclamation_request</reference_table>
+        <req_filter_definition display_value="View filter">b3eb36c1933c0310d4ce32ddfaba10b8</req_filter_definition>
+        <request_filter_column/>
         <sys_class_name>sn_ex_sp_request_filter_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-05-10 12:17:29</sys_created_on>
-        <sys_id>3c9c32cd933c0310d4ce32ddfaba10de</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Seleciona Organismo</sys_name>
+        <sys_created_on>2026-05-10 21:38:22</sys_created_on>
+        <sys_id>810dfc9d833043104f2c96d6feaad36d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Plan del Organismo</sys_name>
         <sys_package display_value="Ciclo" source="x_431220_ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_scope>
-        <sys_update_name>sn_ex_sp_request_filter_config_3c9c32cd933c0310d4ce32ddfaba10de</sys_update_name>
+        <sys_update_name>sn_ex_sp_request_filter_config_810dfc9d833043104f2c96d6feaad36d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-05-10 21:40:22</sys_updated_on>
+        <sys_updated_on>2026-05-10 21:38:22</sys_updated_on>
     </sn_ex_sp_request_filter_config>
 </record_update>

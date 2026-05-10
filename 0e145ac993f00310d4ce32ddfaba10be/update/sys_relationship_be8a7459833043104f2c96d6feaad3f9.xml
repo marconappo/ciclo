@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_431220_ciclo_plan_organismo</basic_apply_to>
+        <basic_query_from>x_431220_ciclo_iniciativa</basic_query_from>
+        <insert_callback/>
+        <name>Iniciativas Pendiente de validacion</name>
+        <query_from/>
+        <query_with><![CDATA[(function refineQuery(current, parent) {
+
+    // 1. Filter by Organismo: Match the Iniciativa organism with the Plan's organism
+    current.addQuery("company", parent.getValue("company"));
+
+    // 2. Filter by Year: Match the year of 'fecha_licitacion' with the 'ano' field of the Plan
+    var planYear = parent.getValue("ano");
+    if (planYear) {
+        // Construct an encoded query to filter 'fecha_licitacion' for the specific year
+        var queryStr = "fecha_licitacionON" + planYear +
+            "@javascript:gs.dateGenerate('" + planYear + "-01-01','start')" +
+            "@javascript:gs.dateGenerate('" + planYear + "-12-31','end')";
+        current.addEncodedQuery(queryStr);
+    }
+		current.addQuery("state","2");
+
+})(current, parent);]]></query_with>
+        <reference_field/>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-10 21:27:34</sys_created_on>
+        <sys_id>be8a7459833043104f2c96d6feaad3f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Iniciativas Pendiente de validacion</sys_name>
+        <sys_package display_value="Ciclo" source="x_431220_ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_scope>
+        <sys_update_name>sys_relationship_be8a7459833043104f2c96d6feaad3f9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-10 21:27:34</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="delete_multiple" query="documentkey=be8a7459833043104f2c96d6feaad3f9"/>
+</record_update>

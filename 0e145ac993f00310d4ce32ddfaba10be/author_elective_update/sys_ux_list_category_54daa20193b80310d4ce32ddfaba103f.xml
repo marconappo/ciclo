@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list_category">
+    <sys_ux_list_category action="DELETE">
+        <active>true</active>
+        <configuration display_value="Ciclo_menu_config">40da620193b80310d4ce32ddfaba10c3</configuration>
+        <description/>
+        <order>500</order>
+        <sys_class_name>sys_ux_list_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-10 10:59:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>54daa20193b80310d4ce32ddfaba103f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Portal</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Ciclo" source="x_431220_ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_scope>
+        <sys_update_name>sys_ux_list_category_54daa20193b80310d4ce32ddfaba103f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-10 10:59:37</sys_updated_on>
+        <title>Portal</title>
+    </sys_ux_list_category>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Ciclo">0e145ac993f00310d4ce32ddfaba10be</application>
+        <file_path/>
+        <instance_id>2f2c49111ba2b998c84543f4bd4bcb6a</instance_id>
+        <instance_name>dev212462</instance_name>
+        <name>sys_ux_list_category_54daa20193b80310d4ce32ddfaba103f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list_category">
+    <sys_ux_list_category action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <configuration display_value="Ciclo_menu_config">40da620193b80310d4ce32ddfaba10c3</configuration>
+        <description/>
+        <order>500</order>
+        <sys_class_name>sys_ux_list_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-10 10:59:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>54daa20193b80310d4ce32ddfaba103f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Portal</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Ciclo" source="x_431220_ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_scope>
+        <sys_update_name>sys_ux_list_category_54daa20193b80310d4ce32ddfaba103f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-10 10:59:37</sys_updated_on>
+        <title>Portal</title>
+    </sys_ux_list_category>
+</record_update>]]></payload>
+        <payload_hash>-1984422744</payload_hash>
+        <record_name>Portal</record_name>
+        <reverted_from/>
+        <source>c1505499837003104f2c96d6feaad334</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-10 18:23:33</sys_created_on>
+        <sys_id>13605c1d837003104f2c96d6feaad364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e13215c1d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-10 18:23:33</sys_updated_on>
+        <type>UX List Category</type>
+        <update_guid>df605c1dd6700310419ef52cb4f3d963</update_guid>
+        <update_guid_history>df605c1dd6700310419ef52cb4f3d963:-1984422744</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-10 22:03:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_list_category">sys_ux_list_category</sys_db_object>
+        <sys_id>0054f1ea998f40ea80028f6e372a1304</sys_id>
+        <sys_metadata>54daa20193b80310d4ce32ddfaba103f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Portal</sys_name>
+        <sys_package display_value="Ciclo" source="x_431220_ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_scope>
+        <sys_scope_delete display_value="">bfa873bd44e24f8c997f37ab61844d04</sys_scope_delete>
+        <sys_update_name>sys_ux_list_category_54daa20193b80310d4ce32ddfaba103f</sys_update_name>
+        <sys_update_version display_value="sys_ux_list_category_54daa20193b80310d4ce32ddfaba103f">13605c1d837003104f2c96d6feaad364</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-10 22:03:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
