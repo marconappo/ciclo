@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>9c636ec193380310d4ce32ddfaba1079</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="x_431220_ciclo_iniciativa">
+    <x_431220_ciclo_iniciativa action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_due/>
+        <additional_assignee_list/>
+        <ano>2025</ano>
+        <approval>not requested</approval>
+        <approval_history/>
+        <approval_set/>
+        <assigned_to/>
+        <assignment_group display_value="Validadores del AGENCIA TRIBUTARIA MADRID" name="Validadores del AGENCIA TRIBUTARIA MADRID">b409520993340310d4ce32ddfaba1032</assignment_group>
+        <business_duration/>
+        <business_service/>
+        <calendar_duration/>
+        <close_notes/>
+        <closed_at/>
+        <closed_by/>
+        <cmdb_ci/>
+        <comments/>
+        <comments_and_work_notes/>
+        <company display_value="AGENCIA TRIBUTARIA MADRID">9dd71a4593340310d4ce32ddfaba10e2</company>
+        <contact_type/>
+        <contract/>
+        <correlation_display/>
+        <correlation_id/>
+        <cpv/>
+        <delivery_plan/>
+        <delivery_task/>
+        <description/>
+        <due_date/>
+        <escalation>0</escalation>
+        <expected_start/>
+        <fecha_licitacion>2025-04-01</fecha_licitacion>
+        <follow_up/>
+        <group_list/>
+        <impact>3</impact>
+        <knowledge>false</knowledge>
+        <location/>
+        <made_sla>true</made_sla>
+        <mes>4</mes>
+        <number>INI0012527</number>
+        <opened_at>2026-05-10 10:27:08</opened_at>
+        <opened_by display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</opened_by>
+        <order/>
+        <parent/>
+        <plazo_de_ejecucion>24</plazo_de_ejecucion>
+        <plazo_prorroga/>
+        <priority>4</priority>
+        <prorroga>true</prorroga>
+        <reassignment_count>0</reassignment_count>
+        <rejection_goto/>
+        <route_reason/>
+        <service_offering/>
+        <short_description>MANTENIMIENTO EQUIPOS AUDIOVISUALES Y MEGAFONIA</short_description>
+        <sla_due/>
+        <state>1</state>
+        <sys_class_name>x_431220_ciclo_iniciativa</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-10 10:27:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9c636ec193380310d4ce32ddfaba1079</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-10 10:27:08</sys_updated_on>
+        <task_effective_number>INI0012527</task_effective_number>
+        <time_worked/>
+        <tipo_de_contrato display_value="Servicios">3a06160193340310d4ce32ddfaba10a6</tipo_de_contrato>
+        <trimestre>2</trimestre>
+        <universal_request/>
+        <upon_approval>proceed</upon_approval>
+        <upon_reject>cancel</upon_reject>
+        <urgency>3</urgency>
+        <user_input/>
+        <valor_estimado>30,712.07</valor_estimado>
+        <variables/>
+        <watch_list/>
+        <wf_activity/>
+        <work_end/>
+        <work_notes/>
+        <work_notes_list/>
+        <work_start/>
+    </x_431220_ciclo_iniciativa>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-10 20:04:04</sys_created_on>
+        <sys_id>6b67e815933c4310d4ce32ddfaba101a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>INI0012527</sys_name>
+        <sys_package display_value="Ciclo" source="x_431220_ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_scope>
+        <sys_update_name>sys_metadata_link_6b67e815933c4310d4ce32ddfaba101a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-10 20:04:04</sys_updated_on>
+        <tablename>x_431220_ciclo_iniciativa</tablename>
+    </sys_metadata_link>
+</record_update>
