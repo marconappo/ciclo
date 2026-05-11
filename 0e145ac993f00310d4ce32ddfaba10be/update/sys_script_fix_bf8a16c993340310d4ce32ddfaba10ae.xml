@@ -4,56 +4,55 @@
         <description/>
         <name>CICLO FIx Script</name>
         <record_for_rollback>false</record_for_rollback>
-        <script><![CDATA[(function() {
-    var updateSetId = '5c14a4d993f84310d4ce32ddfaba109a'; // Ciclo Demo Data
-    var appScopeId = '0e145ac993f00310d4ce32ddfaba10be'; // Ciclo Application ID
-    var tables = ['x_431220_ciclo_iniciativa', 'x_431220_ciclo_choice'];
+        <script><![CDATA[/**
+ * Description: Clears the 'assignment_group' field for all records 
+ * in Iniciativa, Plan Municipal, and Plan Organismo tables.
+ */
+(function() {
+    var tables = [
+        'x_431220_ciclo_iniciativa',
+        'x_431220_ciclo_plan_municipal',
+        'x_431220_ciclo_plan_organismo' // Source table
+    ];
 
-    // 1. Force the session to the Ciclo Application Scope
-    gs.setCurrentApplicationId(appScopeId);
-
-    // 2. Force the session to the specific Update Set
-    var gus = new GlideUpdateSet();
-    if (!gus.set(updateSetId)) {
-        gs.print('ERROR: Could not set Update Set. Verify the Sys ID.');
-        return;
-    }
-    
-    gs.print('>>> Recording into Scope: ' + appScopeId);
-    gs.print('>>> Recording into Update Set: ' + updateSetId);
-
-    // 3. Use GlideUpdateManager2 (compatible with Zurich/Australia releases)
-    var manager = new GlideUpdateManager2();
-    var totalAdded = 0;
-
-    for (var i = 0; i < tables.length; i++) {
-        var tableName = tables[i];
+    tables.forEach(function(tableName) {
         var gr = new GlideRecord(tableName);
+        
+        // 1. Target only records that actually have a group assigned
+        gr.addNotNullQuery('assignment_group');
         gr.query();
 
-        gs.print('>>> Processing ' + tableName + ': ' + gr.getRowCount() + ' records');
+        var recordCount = gr.getRowCount();
 
-        while (gr.next()) {
-            // This captures the record as an XML entry in the correctly set scope
-            manager.saveRecord(gr);
-            totalAdded++;
+        if (recordCount > 0) {
+            // 2. Disable Workflows and Business Rules for performance
+            gr.setWorkflow(false);
+            
+            // 3. Prevent the 'Updated' date and 'Updated by' from changing
+            gr.autoSysFields(false);
+
+            // 4. Nullify the field and perform bulk update
+            gr.setValue('assignment_group', '');
+            gr.updateMultiple();
+
+            gs.info('>>> [CLEANUP] Table ' + tableName + ': Cleared ' + recordCount + ' records.');
+        } else {
+            gs.info('>>> [CLEANUP] Table ' + tableName + ': No records found with assignment groups.');
         }
-    }
-
-    gs.print('>>> FINISHED. Total XML entries added to Ciclo scope: ' + totalAdded);
+    });
 })();]]></script>
         <sys_class_name>sys_script_fix</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-05-10 09:49:02</sys_created_on>
         <sys_id>bf8a16c993340310d4ce32ddfaba10ae</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>CICLO FIx Script</sys_name>
         <sys_package display_value="Ciclo" source="x_431220_ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_scope>
         <sys_update_name>sys_script_fix_bf8a16c993340310d4ce32ddfaba10ae</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-05-10 19:50:39</sys_updated_on>
+        <sys_updated_on>2026-05-11 07:27:44</sys_updated_on>
         <unloadable>false</unloadable>
     </sys_script_fix>
 </record_update>
