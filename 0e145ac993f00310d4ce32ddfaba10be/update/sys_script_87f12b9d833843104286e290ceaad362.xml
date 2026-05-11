@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_431220_ciclo_iniciativa</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Copy Changes in Comments</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+    var updates = [];
+
+    // 1. Check State
+    if (current.state.changes()) {
+        updates.push("- Estado: '" + previous.state.getDisplayValue() + "' a '" + current.state.getDisplayValue() + "'");
+    }
+
+    // 2. Check Valor Estimado
+    if (current.valor_estimado.changes()) {
+        updates.push("- Valor Estimado: " + previous.valor_estimado + " a " + current.valor_estimado);
+    }
+
+    // 3. Check Unidad Orgánica
+    if (current.company.changes()) {
+        updates.push("- Unidad Orgánica: " + previous.company.getDisplayValue() + " a " + current.company.getDisplayValue());
+    }
+
+    // 4. Check Tipo de contrato
+    if (current.tipo_de_contrato.changes()) {
+        updates.push("- Tipo de contrato: " + previous.tipo_de_contrato.getDisplayValue() + " a " + current.tipo_de_contrato.getDisplayValue());
+    }
+
+    //5. Check Fecha licitación
+    if (current.fecha_licitacion.changes()) {
+        updates.push("- Fecha licitación: " + previous.fecha_licitacion.getDisplayValue()  + " a " +  current.fecha_licitacion.getDisplayValue());
+    }
+	if (current.short_description.changes()) {
+        updates.push("- Denominación del contrato/acuerdo marco: " + previous.short_description.getDisplayValue()  + " a " +  current.short_description.getDisplayValue());
+    }
+
+    // If any changes were detected, post them as a single comment
+    if (updates.length > 0) {
+        current.comments = "Actualizaciónes:\n" + updates.join("\n");
+    }
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-11 09:41:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>87f12b9d833843104286e290ceaad362</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Copy Changes in Comments</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Ciclo" source="x_431220_ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_scope>
+        <sys_update_name>sys_script_87f12b9d833843104286e290ceaad362</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-11 10:50:23</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=87f12b9d833843104286e290ceaad362"/>
+</record_update>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="942d1e0193740310d4ce32ddfaba10b6" extends="task" label="Iniciativa" max_length="40" name="x_431220_ciclo_iniciativa" text_index="true" type="collection">
-        <element label="Mes" max_length="40" name="mes" type="integer"/>
-        <element label="Plazo de Ejecución" max_length="40" name="plazo_de_ejecucion" type="integer"/>
         <element label="Prórroga" max_length="40" name="prorroga" type="boolean"/>
-        <element label="Valor Estimado" max_length="40" name="valor_estimado" type="string"/>
+        <element label="CPV" max_length="32" name="cpv" reference="x_431220_ciclo_choice" type="reference"/>
+        <element label="Plazo de Ejecución" max_length="40" name="plazo_de_ejecucion" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,no_audit=false" label="Valor Estimado" max_length="40" name="valor_estimado" type="string"/>
+        <element label="Mes" max_length="40" name="mes" type="integer"/>
         <element label="Tipo de contrato" max_length="32" name="tipo_de_contrato" reference="x_431220_ciclo_choice" type="reference"/>
         <element label="Fecha licitacion" max_length="40" name="fecha_licitacion" type="glide_date"/>
-        <element label="Trimestre" max_length="40" name="trimestre" type="integer"/>
         <element label="Plazo prórroga" max_length="40" name="plazo_prorroga" type="string"/>
-        <element label="CPV" max_length="32" name="cpv" reference="x_431220_ciclo_choice" type="reference"/>
+        <element label="Trimestre" max_length="40" name="trimestre" type="integer"/>
         <element label="Ano" max_length="40" name="ano" type="integer"/>
     </element>
 </database>

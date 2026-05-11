@@ -2,7 +2,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Crea un nueva iniciativa">ed220bc9937c0310d4ce32ddfaba1037</cat_item>
+        <cat_item display_value="Crea una nueva iniciativa">ed220bc9937c0310d4ce32ddfaba1037</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -28,7 +28,7 @@
         <help_tag>More information</help_tag>
         <help_text/>
         <hidden>false</hidden>
-        <include_none>true</include_none>
+        <include_none>false</include_none>
         <instructions/>
         <layout>normal</layout>
         <list_table/>
@@ -52,7 +52,7 @@
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Organismo</question_text>
+        <question_text>Unidad orgánica</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -61,7 +61,7 @@
         <record/>
         <record_producer_table>x_431220_ciclo_iniciativa</record_producer_table>
         <reference/>
-        <reference_qual>country=Spain</reference_qual>
+        <reference_qual>javascript: "sys_id=" + gs.getUser().getCompanyID();</reference_qual>
         <reference_qual_condition/>
         <rich_text/>
         <roles_to_use_also_request_for/>
@@ -82,14 +82,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-05-10 12:46:05</sys_created_on>
         <sys_id>5562830d937c0310d4ce32ddfaba1001</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_name>Organismo</sys_name>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Unidad orgánica</sys_name>
         <sys_package display_value="Ciclo" source="x_431220_ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_scope>
         <sys_update_name>item_option_new_5562830d937c0310d4ce32ddfaba1001</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-05-10 13:28:30</sys_updated_on>
+        <sys_updated_on>2026-05-11 09:31:18</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
@@ -97,7 +97,7 @@
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
+        <use_reference_qualifier>advanced</use_reference_qualifier>
         <validate_regex/>
         <variable_name/>
         <variable_set/>

@@ -32,7 +32,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>Crea un nueva iniciativa</name>
+        <name>Crea una nueva iniciativa</name>
         <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>false</no_cart_v2>
@@ -90,14 +90,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-05-10 12:41:34</sys_created_on>
         <sys_id>ed220bc9937c0310d4ce32ddfaba1037</sys_id>
-        <sys_mod_count>27</sys_mod_count>
-        <sys_name>Crea un nueva iniciativa</sys_name>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_name>Crea una nueva iniciativa</sys_name>
         <sys_package display_value="Ciclo" source="x_431220_ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_scope>
         <sys_update_name>sc_cat_item_producer_ed220bc9937c0310d4ce32ddfaba1037</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2026-05-10 13:28:30</sys_updated_on>
+        <sys_updated_on>2026-05-11 09:31:18</sys_updated_on>
         <table_name>x_431220_ciclo_iniciativa</table_name>
         <taxonomy_topic display_value="Ciclo">9ca6034593bc0310d4ce32ddfaba10da</taxonomy_topic>
         <template/>
@@ -105,7 +105,7 @@
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>27</version>
+        <version>32</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>

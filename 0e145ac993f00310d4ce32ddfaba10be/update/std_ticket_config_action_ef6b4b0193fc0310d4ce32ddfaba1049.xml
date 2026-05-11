@@ -5,11 +5,11 @@
     if (inputs) {
         if (inputs.u_short_description)
             current.short_description = inputs.u_short_description;
-        if (inputs && inputs.new_date)
+        if (inputs.new_date)
             current.fecha_licitacion = inputs.u_new_date;
-        if (inputs && inputs.u_tipo_de_contrato)
+        if (inputs.u_tipo_de_contrato)
             current.tipo_de_contrato = inputs.u_tipo_de_contrato;
-        if (inputs && inputs.u_valor_estimado)
+        if (inputs.u_valor_estimado)
             current.valor_estimado = inputs.u_valor_estimado;
         current.update();
     }
@@ -21,10 +21,11 @@
     if (current.getValue('state') == '1') {
         var user = gs.getUser();
         var targetGroup = "Responsables de información y registro [RIR]";
-		var targetGroup2 = "Dirección General [DG] o Subdirección General [SG])"
+		var targetGroup2 = "Dirección General [DG] o Subdirección General [SG])";
+        var targetGroup3 = "Secretaría General Técnica [SGT] o Gerente";
         if (gs.hasRole('admin') || (
 			user.getCompanyID() == current.getValue('company') && 
-				(user.isMemberOf(targetGroup) || user.isMemberOf(targetGroup2))
+				(user.isMemberOf(targetGroup) || user.isMemberOf(targetGroup2) || user.isMemberOf(targetGroup3))
 			)
 		)
             return true;
@@ -38,14 +39,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-05-10 13:22:07</sys_created_on>
         <sys_id>ef6b4b0193fc0310d4ce32ddfaba1049</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Modificar</sys_name>
         <sys_package display_value="Ciclo" source="x_431220_ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_scope>
         <sys_update_name>std_ticket_config_action_ef6b4b0193fc0310d4ce32ddfaba1049</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-05-11 08:05:47</sys_updated_on>
+        <sys_updated_on>2026-05-11 11:16:46</sys_updated_on>
         <ticket_configuration display_value="x_431220_ciclo_iniciativa">f896f2c1933c0310d4ce32ddfaba1072</ticket_configuration>
         <user_input>true</user_input>
     </std_ticket_config_action>

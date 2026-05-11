@@ -4,7 +4,7 @@
         <apply_on_load>false</apply_on_load>
         <available_for/>
         <domain_id>global</domain_id>
-        <label>Plan del Organismo</label>
+        <label>Plan unidad orgánica</label>
         <not_available_for/>
         <order>100</order>
         <reference_table>asset_reclamation_request</reference_table>
@@ -14,13 +14,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-05-10 21:38:22</sys_created_on>
         <sys_id>810dfc9d833043104f2c96d6feaad36d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Plan del Organismo</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Plan unidad orgánica</sys_name>
         <sys_package display_value="Ciclo" source="x_431220_ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_scope>
         <sys_update_name>sn_ex_sp_request_filter_config_810dfc9d833043104f2c96d6feaad36d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-05-10 21:38:22</sys_updated_on>
+        <sys_updated_on>2026-05-11 12:06:23</sys_updated_on>
     </sn_ex_sp_request_filter_config>
 </record_update>
