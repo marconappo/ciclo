@@ -10,34 +10,31 @@
         <applicability_script><![CDATA[(function() {
     if (current.getValue('state') == '1') {
         var user = gs.getUser();
-        var targetGroup = "Responsables de información y registro [RIR]";
-		var targetGroup2 = "Dirección General [DG] o Subdirección General [SG])"
+        var targetGroup = "Secretaría General Técnica [SGT] o Gerente";
         if (gs.hasRole('admin') || (
-			user.getCompanyID() == current.getValue('company') && 
-				(user.isMemberOf(targetGroup) || user.isMemberOf(targetGroup2))
-			)
-		)
+                user.getCompanyID() == current.getValue('company') && user.isMemberOf(targetGroup)
+            ))
             return true;
     }
     return false;
 })();]]></applicability_script>
-        <name>Pedir validación</name>
-        <order>100</order>
-        <short_description>With this button you request to move the Iniciativa to Pendiente Validacion</short_description>
+        <name>Aprobar</name>
+        <order/>
+        <short_description>Aprobar el plan del unitad organica</short_description>
         <sys_class_name>std_ticket_config_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-05-10 13:19:55</sys_created_on>
-        <sys_id>43ca0bcd93bc0310d4ce32ddfaba1031</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Pedir validación</sys_name>
+        <sys_created_on>2026-05-11 08:11:49</sys_created_on>
+        <sys_id>286d035d833443104286e290ceaad3c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Aprobar</sys_name>
         <sys_package display_value="Ciclo" source="x_431220_ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_package>
         <sys_policy/>
         <sys_scope display_value="Ciclo">0e145ac993f00310d4ce32ddfaba10be</sys_scope>
-        <sys_update_name>std_ticket_config_action_43ca0bcd93bc0310d4ce32ddfaba1031</sys_update_name>
+        <sys_update_name>std_ticket_config_action_286d035d833443104286e290ceaad3c4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-05-11 08:03:57</sys_updated_on>
-        <ticket_configuration display_value="x_431220_ciclo_iniciativa">f896f2c1933c0310d4ce32ddfaba1072</ticket_configuration>
+        <sys_updated_on>2026-05-11 08:11:49</sys_updated_on>
+        <ticket_configuration display_value="x_431220_ciclo_plan_organismo">639bfcd9833043104f2c96d6feaad36a</ticket_configuration>
         <user_input>false</user_input>
     </std_ticket_config_action>
-    <sys_translated_text action="delete_multiple" query="documentkey=43ca0bcd93bc0310d4ce32ddfaba1031"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=286d035d833443104286e290ceaad3c4"/>
 </record_update>
